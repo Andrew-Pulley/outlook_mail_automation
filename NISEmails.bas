@@ -10,9 +10,9 @@ Function getSettings() As settings
     Dim sets As settings
 
     With sets 'Retreive values
-        .firstName = "Andrew"
-        .lastName = "Pulley"
-        .numberExtension = "0427"
+.firstName = "First"
+.lastName = "Last"
+.numberExtension = "1234"
     End With
     'Return a single struct
     getSettings = sets
